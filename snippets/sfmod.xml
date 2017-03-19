@@ -5,7 +5,7 @@
   <project path="android" name="SFMod/platform_manifest" />
   <project path="vendor/cm" name="SFMod/android_vendor_cm" />
   <!-- <project path="frameworks/base" name="SFMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" /> -->
-  <project path="device/lge/bullhead" name="SFMod/android_device_lge_bullhead" groups="device,bullhead" />
+  <project path="device/lge/bullhead" name="SFMod/android_device_lge_bullhead_multirom" groups="device,bullhead" />
   <!-- <project path="packages/apps/CMUpdater" name="SFMod/android_packages_apps_CMUpdater" /> -->
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
   <!-- Proprietary stuff for bullhead -->
