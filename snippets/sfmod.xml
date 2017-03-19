@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <!-- SFMod overrides -->
+  <project path="android" name="SFMod/platform_manifest" />
+  <project path="vendor/cm" name="SFMod/android_vendor_cm" />
+  <!-- <project path="frameworks/base" name="SFMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" /> -->
+  <project path="device/lge/bullhead" name="SFMod/android_device_lge_bullhead" groups="device,bullhead" />
+  <!-- <project path="packages/apps/CMUpdater" name="SFMod/android_packages_apps_CMUpdater" /> -->
+  <project path="external/f2fs-tools" name="SFMod/android_external_f2fs-tools" groups="pdk" />
+  <!-- Proprietary stuff for bullhead -->
+  <project path="vendor/lge" name="SFMod/proprietary_vendor_lge" revision="cm-14.1" />
+  <!-- Kernel source for bullhead -->
+  <project path="kernel/lge/bullhead" name="SFMod/android_kernel_lge_bullhead" groups="device,bullhead" revision="ElementalX-4.00" />
+  <!-- BusyBox -->
+  <project path="external/busybox" name="SFMod/android_external_busybox" revision="cm-14.1" />
+  <!-- TWRP -->
+  <project path="bootable/recovery" name="SFMod/android_bootable_recovery" groups="pdk-cw-fs" revision="cm-14.1" />
+  <!-- MultiROM -->
+  <project path="system/extras/multirom" name="SFMod/android_system_extras_multirom" groups="pdk,bullhead" />
+  <project path="system/extras/libbootimg" name="SFMod/android_system_extras_libbootimg" groups="pdk" revision="master" />
+</manifest>
