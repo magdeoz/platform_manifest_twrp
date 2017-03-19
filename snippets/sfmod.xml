@@ -11,7 +11,8 @@
   <!-- Proprietary stuff for bullhead -->
   <project path="vendor/lge" name="SFMod/proprietary_vendor_lge" revision="cm-14.1" />
   <!-- Kernel source for bullhead -->
-  <project path="kernel/lge/bullhead" name="SFMod/android_kernel_lge_bullhead" groups="device,bullhead" revision="ElementalX-4.00" />
+  <!-- <project path="kernel/lge/bullhead" name="SFMod/android_kernel_lge_bullhead" groups="device,bullhead" revision="ElementalX-4.00" /> -->
+  <project path="kernel/lge/bullhead" name="jollaman999/jolla-kernel_bullhead" groups="device,bullhead" revision="android-7.1.1" />
   <!-- BusyBox -->
   <project path="external/busybox" name="SFMod/android_external_busybox" revision="cm-14.1" />
   <!-- TWRP -->
